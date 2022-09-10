@@ -9,6 +9,8 @@ public class SfgPetClinicApplication {
 
     public static void main(String[] args) {
       ApplicationContext ctx= (ApplicationContext) SpringApplication.run(SfgPetClinicApplication.class, args);
+
+      System.out.println("hello world");
     }
 
 }
